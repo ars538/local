@@ -4,4 +4,4 @@ import requests
 
 response=requests.get("http//example.com")
 soup=BeautifulSoup(response.content,'html.parser')
-print(soup.prettify())
+print(soup.prett)
