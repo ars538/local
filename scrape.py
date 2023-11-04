@@ -5,3 +5,4 @@ import requests
 response=requests.get("http//example.com")
 soup=BeautifulSoup(response.content,'lxml')
 print(soup.text)
+
